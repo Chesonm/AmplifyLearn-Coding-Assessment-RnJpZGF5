@@ -7,7 +7,7 @@ The code of scraping images from UW ACMS homepage.(images included)
 - [LICENSE](LICENSE)
 - [Homepage of images](acms.html)
 - [images scraping](images_scrape.py)
-- [img](AmplifyLearn-Coding-Assessment-RnJpZGF5/img/)
+- [img](img)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
