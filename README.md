@@ -3,7 +3,7 @@
 The code of scraping images from UW ACMS homepage.(images included)
 
 ## Contents
-- [Installation](Dependencies)
+- [Installation](Dependencies.txt)
 - [LICENSE](LICENSE)
 - [Homepage of images](acms.html)
 - [images scraping](images_scrape.py)
