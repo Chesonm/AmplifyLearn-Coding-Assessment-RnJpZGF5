@@ -28,5 +28,3 @@ for img_tag in img_tags:
     with open(file_path, "wb") as f:
         response = requests.get(img_url)
         f.write(response.content)
-
-print('Images saved successfully.')
