@@ -2,6 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import os
+import json
 
 url = 'https://acms.washington.edu/'
 response = requests.get(url)
@@ -14,6 +15,8 @@ with open(home_page_path, 'w', encoding='utf-8') as home_page_file:
 
 img_directory = 'img'
 os.makedirs(img_directory, exist_ok=True)
+
+image_data = {}
 
 for img_tag in img_tags:
     img_url = img_tag['src']
@@ -28,3 +31,9 @@ for img_tag in img_tags:
     with open(file_path, "wb") as f:
         response = requests.get(img_url)
         f.write(response.content)
+
+    image_data[clean_img_name = img_url
+
+json_file_path = 'images.json'
+with open(json_file_path, 'w') as json_file:
+    json.dump(image_data, json_file)
