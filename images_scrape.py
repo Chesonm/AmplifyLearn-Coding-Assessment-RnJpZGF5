@@ -32,7 +32,7 @@ for img_tag in img_tags:
         response = requests.get(img_url)
         f.write(response.content)
 
-    image_data[clean_img_name = img_url
+    image_data[clean_img_name] = img_url
 
 json_file_path = 'images.json'
 with open(json_file_path, 'w') as json_file:
