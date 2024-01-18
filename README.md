@@ -2,7 +2,7 @@
 
 The code of scraping images from UW ACMS homepage.(images included)
 
-Clone: git clone https://github.com/Chesonm/AmplifyLearn-Coding-Assessment-RnJpZGF5
+Clone: git clone https://github.com/Chesonm/AmplifyLearn-Coding-Assessment-RnJpZGF5.git
 
 ## Contents
 - [Installation](Dependencies.txt)
